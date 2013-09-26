@@ -1,0 +1,44 @@
+body {
+	background: #F2F2F2;	
+	font: 12px/1.5 Verdana,'ËÎÌו',tahoma, Srial, helvetica, sans-serif;
+	margin:0;
+	padding:0;
+}
+
+a {
+	font-size:12px;
+	color:#0F83DB;
+	text-decoration:none;
+}
+#header{
+	width:100%;
+	background: #666;
+	border-bottom:0px solid #FFF;
+	overflow:hidden;
+	height:32px;
+}
+
+#header_nav{
+	width:95%;
+	margin: 0px auto;
+	padding: 6px 0px;
+}
+
+#header a{
+	line-height:20px;
+	color: #FFF;
+}
+
+#header .top_home{
+	padding-right: 6px;
+}
+
+.fleft{ display: inline; float:left;}
+
+.fright{ display: inline; float:right;}
+
+#content,#footer{
+	width:100%;
+	background: #FFF;	
+	border-bottom:none;
+}
