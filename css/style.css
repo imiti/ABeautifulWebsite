@@ -4,12 +4,6 @@ body {
 	margin:0;
 	padding:0;
 }
-
-a {
-	font-size:12px;
-	color:#0F83DB;
-	text-decoration:none;
-}
 #header{
 	width:100%;
 	background: #666;
@@ -41,4 +35,119 @@ a {
 	width:100%;
 	background: #FFF;	
 	border-bottom:none;
+}
+.menu { 
+	height: 45px;
+	display: block;	
+	width:80%;	
+	float:right;
+}
+.menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.choice {
+	float: left;
+	text-align: center;
+	display: block;	
+}
+.menu ul li {
+	float: left;
+	/* 菜单子元素的内容超出不可见 */  
+	overflow: hidden;		
+	position: relative;
+	text-align: center;
+	line-height: 45px;
+}
+.menu ul li a {
+	/* 必须是相对定位  */ 
+	position: relative;
+	display: block;
+	width: 110px;
+	height: 45px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	cursor: pointer;
+}
+.menu ul li a span {
+	/* 所有层将使用绝对定位 */
+	position: absolute;
+	left: 0;
+	width: 110px;
+}
+.menu ul li a span.out {
+	top: 0px;
+}
+.menu ul li a span.over,
+.menu ul li a span.bg {
+	/* 起初.over层和.bg层相对a元素-45px以达到隐藏 */  
+	top: -45px;
+}
+	/** 简化版示例 **/
+	
+#menu2 {
+	background:#45A8DF;
+}
+#menu1 {
+	background:#ffffff;
+	border:#ff453d;
+	border-style:solid;
+	width:195px;
+	height:39px;
+	align: center;
+}
+#menu2 ul li a {
+	color:#FFF;
+}
+#menu2 ul li a span.over {
+	background: #A6DD00;
+	color:#45A8DF;
+}
+#menu2 ul li.nav1 a span.over {
+	background: #ffffff;
+}
+#menu2 ul li.nav2 a span.over {
+	background: #ffffff;
+}
+#menu2 ul li.nav3 a span.over {
+	background: #ffffff;
+}
+#menu2 ul li.nav4 a span.over {
+	background: #ffffff;
+}
+#menu2 ul li.nav5 a span.over {
+	background: #ffffff;
+}
+#menu2 ul li.nav6 a span.over {
+	background: #ffffff;
+}
+#choicelist {
+	float:left;
+	width:195px;
+	height:580px;
+	border:#ff453d;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-bottom-style:solid;
+}
+#choicelist ul{
+	list-style: none;
+	padding: 10;
+	margin: 10;
+}
+#main{
+	float:right;
+	width:80%;
+	background:#ffffff;
+	height:580px;
+}
+#choicelist ul li a{
+		font-size:12px;
+	color:#ff453d;
+	text-decoration:none;
 }
