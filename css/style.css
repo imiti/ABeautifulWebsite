@@ -95,10 +95,8 @@ body {
 }
 #menu1 {
 	background:#ffffff;
-	border:#ff453d;
-	border-style:solid;
-	width:195px;
-	height:39px;
+	width:20%;
+	height:45px;
 	align: center;
 }
 #menu2 ul li a {
@@ -128,12 +126,8 @@ body {
 }
 #choicelist {
 	float:left;
-	width:195px;
+	width:20%;
 	height:580px;
-	border:#ff453d;
-	border-left-style:solid;
-	border-right-style:solid;
-	border-bottom-style:solid;
 }
 #choicelist ul{
 	list-style: none;
