@@ -1,10 +1,73 @@
-<!doctype html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="utf-8">
-<title>登录</title>
-</head>
+<link rel="shortcut icon" href="/images/favicon.ico"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>彩红网</title>
+<link rel="stylesheet" href="../css/style.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+	<script language="javascript">
+		$(document).ready(function() {
+			/*	简化版示例	*/
+					
+			$("#menu2 li a").wrapInner( '<span class="out"></span>' );
+			
+			$("#menu2 li a").each(function() {
+				$('<span class="over">' +  $(this).text() + '</span>' ).appendTo( this );
+			});
 
+			$("#menu2 li a").hover(function() {
+				$(".out",this).stop().animate({'top':'-45px'},200); // 向下滑动 - 隐藏
+				$(".over",this).stop().animate({'top':'0px'},200); // 向下滑动 - 显示
+
+			}, function() {
+				$(".out",this).stop().animate({'top':'0px'},200); // 向上滑动 - 显示
+				$(".over",this).stop().animate({'top':'45px'},200); // 向上滑动 - 隐藏
+			});
+		});
+
+	</script>
+
+</head>
 <body>
+<div id="header">
+    <div id="header_nav">
+    	<div class="fleft">
+            <a class="top_home" title="首页" href="../index.html">欢迎来到彩红网!</a>
+                 	</div>
+        <div class="fright">
+        	<a class="top_about" title="登录" href="./login.html">登录 |</a>
+            <a class="top_about" title="注册" href="./register.html">注册</a>
+        </div>
+	</div>
+</div>
+<div id="content">
+	<div id="menu1" class="choice">
+		<p><font color=#45A8DF size=3>选择彩种</font></p>
+	</div>
+	<div id="menu2" class="menu">
+		<ul>
+			<li class="nav1"><a href="../index.html">首页</a></li>
+			<li class="nav2"><a href="../frame/goucaidating.html">购彩大厅</a></li>
+			<li class="nav3"><a href="../frame/caipiaokaijiang.html">彩票开奖</a></li>
+            <li class="nav4"><a href="../frame/caipiaozixun.html">彩票资讯</a></li>
+			<li class="nav5"><a href="../frame/shoujigoucai.html">手机购彩</a></li>
+			<li class="nav6"><a href="../frame/tongyizhifu.html">统一支付</a></li>
+		</ul>
+	</div>
+    <div id="form" class="rights">
+    		<form action="../index.html" method="post">
+           		<br/>
+    		    <label for="username">用户名:</label>
+                <input id="username" name="username" type="text" placeholder="请输入用户名"/><br/><br/>
+        		<label for="password">密码:</label>
+                <input id="password" name="password" type="password" placeholder="请输入密码"><br/><br/>
+                <label for="verificode">验证码:</label>
+                <input id="verifycode" name"verificode" type="text" /><br /><br/>
+				<button type="submit"><img src="../images/submit.jpg" alt="submit" /></button>
+    			<button type="reset" name="cancel"><img src="../images/reset.jpg" alt="reset" /></button>
+			</form>   
+    </div>
+</div>
 </body>
 </html>
