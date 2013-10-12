@@ -6,6 +6,7 @@
 <title>彩红网</title>
 <link rel="stylesheet" href="../css/style.css" />
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/validate.js"></script>
 	<script language="javascript">
 		$(document).ready(function() {
 			/*	简化版示例	*/
@@ -25,7 +26,6 @@
 				$(".over",this).stop().animate({'top':'45px'},200); // 向上滑动 - 隐藏
 			});
 		});
-
 	</script>
 
 </head>
@@ -60,17 +60,17 @@
             	<br />
                 <br /><br /><br /><br />
     		    <label for="username">用户名:</label>
-                <input id="username" name="username" type="text" placeholder="请输入用户名"/><br/><br/>
+                <input id="username" name="username" type="text" placeholder="请输入用户名" required="required"/><br/><br/>
         		<label for="password">密码:</label>
-                <input id="password" name="password" type="password" placeholder="请输入密码"/><br/><br/>
+                <input id="password1" name="password1" type="password" placeholder="请输入密码" required="required"/><br/><br/>
         		<label for="password1">确认密码:</label>
-                <input id="password1" name="password1" type="password" placeholder="请再次输入密码" /><br /><br/>
+                <input id="password2" name="password2" type="password" placeholder="请再次输入密码" required="required"/><br /><br/>
                 <label for="verifycode">验证码:</label>
-                <input id="verifycode" name"verificode" type="text" /><br /><br/>
-       		 	<input id="accept" name="accept" type="radio" value="red" />我已经18岁并同意<a href="">彩虹网服务条款<a>
+                <input id="verifycode" name"verificode" type="text" required="required" /><br /><br/>
+       		 	<input id="accept" name="accept" type="radio" value="red" required="required"/>我已经18岁并同意<a href="">彩虹网服务条款<a>
                 <br />
                 <br />
-				<button type="submit" name="submit"><img src="../images/register.jpg" alt="register" /></button>
+				<button type="submit" name="submit" onclick="check();"><img src="../images/register.jpg" alt="register" /></button>
        			 <button type="reset" name="cancel"><img src="../images/reset.jpg" alt="reset" /></button>
 	</form>   
     </div>
