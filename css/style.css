@@ -3,12 +3,13 @@ body {
 	font: 12px/1.5 Verdana,'ËÎÌו',tahoma, Srial, helvetica, sans-serif;
 	margin:0;
 	padding:0;
+	width:1005px
 }
 #header{
-	width:100%;
+	width:1005px;
 	background: #666;
 	border-bottom:0px solid #FFF;
-	overflow:hidden;
+	overflow:auto;
 	height:32px;
 }
 
@@ -32,14 +33,15 @@ body {
 .fright{ display: inline; float:right;}
 
 #content,#footer{
-	width:100%;
+	width:1005px;
 	background: #FFF;	
 	border-bottom:none;
+	position:absolute
 }
 .menu { 
 	height: 45px;
 	display: block;	
-	width:80%;	
+	width:770px;	
 	float:right;
 }
 .menu ul {
@@ -95,9 +97,8 @@ body {
 }
 #menu1 {
 	background:#ffffff;
-	width:20%;
+	width:220px;
 	height:45px;
-	align: center;
 }
 #menu2 ul li a {
 	color:#FFF;
@@ -126,22 +127,25 @@ body {
 }
 #choicelist {
 	float:left;
-	width:20%;
-	height:580px;
+	width:240px;
+	height:1365px;
+	background:url(../images/choicelist.jpg) center top no-repeat;
 }
-#choicelist ul{
-	list-style: none;
-	padding: 10;
-	margin: 10;
+#indexgonggao {
+	width:240px;
+	height:616px;
+	position:absolute;
+	top:555px;
+	background:url(../images/indexgonggao.jpg) center no-repeat;
 }
 #main{
 	float:right;
-	width:80%;
+	width:765px;
 	background:#ffffff;
 	height:580px;
 }
 #choicelist ul li a{
-		font-size:12px;
+	font-size:12px;
 	color:45A8DF;
 	text-decoration:none;
 }
@@ -150,4 +154,135 @@ body {
 	width:60%;
 	height:348px;
 	border:5px #45A8DF solid;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
 }
+#promotion {
+	width:765px;
+	height:242px;
+	position:absolute;
+	left:245px;
+}
+#quickbuyBox {
+	width:765px;
+	height:492px;
+	background:url(../images/goumaicaipiao.jpg) center no-repeat;
+	position:absolute;
+	top:287px
+}
+#infoBox {
+	width:765px;
+	height:634px;
+	background:url(../images/indexzixun.jpg) no-repeat center;
+	position:absolute;
+	top:777px;
+	left:241px;
+}
+.awardBox {
+	width:750px;
+	height:32px;
+	background:url(../images/lanbackground.jpg);
+	position:absolute;
+	left:5px;
+}
+.awardDetail{
+	height:23px;
+	position:absolute;
+	top:4px;
+	left:4px;
+	right:4px;
+	bottom:4px;
+	font-size:13px;
+}
+.awardDetail a {
+	position:relative;
+	left:500px;
+	color:#00C;
+	text-decoration:none;
+}
+.awardDetail button {
+	position:relative;
+	left:500px;
+}
+.promotion_picture {
+	height:200px;
+	width:510px;
+	background:url(../images/dongtaitu.jpg);
+	position:absolute;
+	top:37px;
+	left:4px;
+}
+.promotion_text {
+	height:200px;
+	background:url(../images/gonggao.jpg)  no-repeat center;
+	position:absolute;
+	top:37px;
+	left:519px;
+	right:5px;
+}
+.quickbuy_title {
+	height:31px;
+	position:absolute;
+	left:4px;
+	right:5px;
+}
+.quickbuy_con {
+	position:absolute;
+	height:459px;
+	left:4px;
+	right:5px;
+	top:31px;
+}
+.bettingBox {
+	position:absolute;
+	width:520px;
+	height:459px;
+}
+.betinfoBox {
+	position:absolute;
+	left:530px;
+	right:10px;
+
+	height:446px;
+}
+#fucai1 a {
+	position:relative;
+	left:76px;
+	top:14px;
+	text-decoration:none;
+	color:#00C;
+}
+#fucai2 a{
+	position:relative;
+	left:76px;
+	top:24px;
+	text-decoration:none;
+	color:#00C;
+}
+#ticai1 a{
+	position:relative;
+	left:76px;
+	top:43px;
+	text-decoration:none;
+	color:#00C;
+}
+#ticai2 a{
+	position:relative;
+	left:76px;
+	top:53px;
+	text-decoration:none;
+	color:#00C;
+}
+#zuqiu1 a{
+	position:relative;
+	left:76px;
+	top:164px;
+	text-decoration:none;
+	color:#00C;
+}
+	
+	
+
+	
+	
+	
