@@ -52,7 +52,6 @@ body {
 .choice {
 	float: left;
 	text-align: center;
-	display: block;	
 }
 .menu ul li {
 	float: left;
@@ -97,7 +96,7 @@ body {
 }
 #menu1 {
 	background:#ffffff;
-	width:220px;
+	width:235px;
 	height:45px;
 }
 #menu2 ul li a {
@@ -280,6 +279,156 @@ body {
 	text-decoration:none;
 	color:#00C;
 }
+/*以下是购彩大厅的样式*/
+#docbody {
+	width:1005px;
+	height:2000px;
+}
+#fucaiticai {
+	width:1000px;
+	height:330px;
+	margin:auto;
+	background:#f2f2f2;
+	border:#ba3344 2px solid;
+}
+#tiyujingji {
+	width:1000px;
+	height:330px;
+	margin:auto;
+	background:#f2f2f2;
+	border:#ba3344 2px solid;
+}
+#item1 {
+	width:190px;
+	height:150px;
+	background:url(../images/shuangseqiu.jpg);
+	position:relative;
+	margin:10px;
+}
+#item2 {
+	width:190px;
+	height:150px;
+	background:url(../images/fucai3d.jpg);
+	position:relative;
+	margin:10px;
+	top:-160px;
+	left:200px;
+}
+#item3 {
+	width:190px;
+	height:150px;
+	background:url(../images/qilecai.jpg);
+	position:relative;
+	margin:10px;
+	top:-320px;
+	left:400px;
+}
+#item4 {
+	width:190px;
+	height:150px;
+	background:url(../images/chaojidaletou.jpg);
+	position:relative;
+	top:10px;
+	margin:10px;
+	top:-480px;
+	left:600px;
+}
+#item5 {
+	width:190px;
+	height:150px;
+	background:url(../images/qixingcai.jpg);
+	position:relative;
+	margin:10px;
+	top:-640px;
+	left:800px;
+}
+#item6 {
+	width:190px;
+	height:150px;
+	background:url(../images/pailie3.jpg);
+	position:relative;
+	margin:10px;
+	top:-640px;
+}
+#item7 {
+	width:190px;
+	height:150px;
+	background:url(../images/pailie5.jpg);
+	position:relative;
+	top:10px;
+	margin:10px;
+	top:-800px;
+	left:200px;
+}
+#item8 {
+	width:190px;
+	height:150px;
+	background:url(../images/jingcaizuqiu.jpg);
+	position:relative;
+	margin:10px;
+}
+
+/*下边是彩票开奖的css*/
+#caipiaokaijiang {
+	width:990px;
+	height:1830px;
+	margin:auto;
+}
+#shuzicaipiao {
+	width:990px;
+	height:442px;
+	top:45px;
+	background:url(../images/shuzicaipiao.jpg);
+	position:relative;
+}
+#jingcaitiyu {
+	width:990px;
+	height:364px;
+	position:relative;
+	background:url(../images/tiyujingjikaijiang.jpg);
+}
+#gaopincai {
+	width:990px;
+	height:364px;
+	position:relative;
+	background:url(../images/goupincai.jpg);
+}
+/*彩票资讯的css*/
+#caipiaozixun {
+	width:1005px;
+	height:2831px;
+}
+#a1 {
+	background:url(../images/1.jpg);
+	width:1005px;
+	height:710px;
+	top:45px;
+	position:relative;
+}
+#a2 {
+	background:url(../images/2.jpg);
+	width:1005px;
+	height:710px;
+	top:15px;
+	position:relative;
+}
+#a3 {
+	background:url(../images/3.jpg);
+	width:1005px;
+	height:710px;
+	top:5px;
+	position:relative;
+}
+#a4 {
+	background:url(../images/4.jpg);
+	width:1005px;
+	height:696px;
+	top:5px;
+	position:relative;
+}
+	
+	
+
 	
 	
 
