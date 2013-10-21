@@ -1,0 +1,248 @@
+@charset "utf-8";
+/* CSS Document */
+
+/**双色球的css**/
+#shuangseqiu {
+	background:#666;
+	width:1005px;
+	height:1005px;
+}
+
+#yewuqu {
+	background:#F00;
+	width:800px;
+	height:800px;
+	margin:auto	;
+}
+#biaoti {
+	background:#FFF;
+	width:800px;
+	height:80px;
+	margin-top:100px;
+}
+#biaoti1 {
+	margin-bottom:23px;
+}
+#biaoti a {
+	font-size:14px;
+	margin-left:150px;
+}
+#xuanhao {
+	background:url(../images/shuangseqiu/shuangseqiu.jpg);
+	width:693px;
+	height:134px;
+	margin:auto;
+}
+#hongqiu {
+	width:425px;
+	height:134px;
+}
+#hongqiu #dierhang {
+	margin-top:10px;
+}
+#hongqiu #disanhang {
+	margin-top:12px;
+}
+#lanqiu {
+	width:268px;
+	height:134px;
+	position:relative;
+	top:-134px;
+	left:465px;
+}
+#hongqiu>div>div{
+	width:35px;
+	height:35px;
+	position:relative;
+}
+#r2 {
+	top:-35px;
+	left:38px;
+}
+#r3 {
+	top:-70px;
+	left:78px;
+}
+#r4 {
+	top:-105px;
+	left:117px;
+}
+#r5 {
+	top:-140px;
+	left:156px;
+}
+#r6 {
+	top:-175px;
+	left:195px;
+}
+#r7 {
+	top:-210px;
+	left:235px;
+}
+#r8 {
+	top:-245px;
+	left:273px;
+}
+#r9 {
+	top:-280px;
+	left:313px;
+}
+#r10 {
+	top:-315px;
+	left:350px;
+}
+#r11 {
+	top:-350px;
+	left:390px;
+}
+#r12 {
+	top:-345px;
+}
+#r13 {
+	top:-380px;
+	left:38px;
+}
+#r14 {
+	top:-415px;
+	left:78px;
+}
+#r15 {
+	top:-450px;
+	left:117px;
+}
+#r16 {
+	top:-485px;
+	left:156px;
+}
+#r17{
+	top:-520px;
+	left:195px;
+}
+#r18 {
+	top:-555px;
+	left:235px;
+}
+#r19 {
+	top:-590px;
+	left:273px;
+}
+#r20 {
+	top:-625px;
+	left:313px;
+}
+#r21 {
+	top:-660px;
+	left:350px;
+}
+#r22 {
+	top:-695px;
+	left:390px;
+}
+
+#r23 {
+	top:-691px;
+}
+#r24 {
+	top:-726px;
+	left:38px;
+}
+#r25 {
+	top:-761px;
+	left:78px;
+}
+#r26 {
+	top:-796px;
+	left:117px;
+}
+#r27 {
+	top:-831px;
+	left:156px;
+}
+#r28{
+	top:-866px;
+	left:195px;
+}
+#r29 {
+	top:-901px;
+	left:235px;
+}
+#r30 {
+	top:-936px;
+	left:273px;
+}
+#r31 {
+	top:-971px;
+	left:313px;
+}
+#r32 {
+	top:-1006px;
+	left:350px;
+}
+#r33 {
+	top:-1041px;
+	left:390px;
+}
+#lanqiu>div>div{
+	width:35px;
+	height:35px;
+	position:relative;
+}
+#b2 {
+	top:-35px;
+	left:38px;
+}
+#b3 {
+	top:-70px;
+	left:78px;
+}
+#b4 {
+	top:-105px;
+	left:117px;
+}
+#b5 {
+	top:-140px;
+	left:156px;
+}
+#b6 {
+	top:-175px;
+	left:195px;
+}
+
+#b7 {
+	top:-160px;
+}
+#b8 {
+	top:-195px;
+	left:38px;
+}
+#b9 {
+	top:-230px;
+	left:78px;
+}
+#b10 {
+	top:-265px;
+	left:117px;
+}
+#b11 {
+	top:-300px;
+	left:156px;
+}
+#b12{
+	top:-335px;
+	left:195px;
+}
+#b13 {
+	top:-320px;
+}
+#b14 {
+	top:-355px;
+	left:38px;
+}
+#b15 {
+	top:-390px;
+	left:78px;
+}
+#b16 {
+	top:-425px;
+	left:117px;
+}
