@@ -3,19 +3,17 @@
 
 /**双色球的css**/
 #shuangseqiu {
-	background:#666;
 	width:1005px;
 	height:1005px;
 }
 
 #yewuqu {
-	background:#F00;
 	width:800px;
-	height:800px;
+	height:350px;
 	margin:auto	;
+	border:#333 2px solid;
 }
 #biaoti {
-	background:#FFF;
 	width:800px;
 	height:80px;
 	margin-top:100px;
@@ -245,4 +243,7 @@
 #b16 {
 	top:-425px;
 	left:117px;
+}
+#text_id {
+	width:200px;
 }
