@@ -213,12 +213,28 @@ body {
 }
 .promotion_text {
 	height:200px;
+	width:220px;
 	background:url(../images/gonggao.jpg)  no-repeat center;
 	position:absolute;
 	top:37px;
-	left:519px;
+	left:525px;
 	right:5px;
 }
+
+		#promotion ul,li{margin:0;padding:0;list-style:none}
+		#menutext li {text-align:center;float:left;padding:5px;
+		margin-right:2px;width:50px;cursor:pointer}
+		#menutext li.tabFocus{width:79px;font-weight:bold;
+		background-color:#f3f2e7;border:solid 1px #666;
+		border-bottom:0;z-index:100;
+		position:relative}
+		#contenttext{width:230px;height:143px;padding:10px;
+		background-color:#fff;clear:left;
+		border:solid 1px #666;
+		position:relative;top:-1px}
+		#contenttext li{display:none}
+		#contenttext li.conFocus{display:block}
+
 .quickbuy_title {
 	height:31px;
 	position:absolute;

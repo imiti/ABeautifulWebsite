@@ -9,6 +9,19 @@
  <script type="text/javascript" src="./js/jquery.XYTipsWindow.min.2.8.js"></script>
  <script type="text/javascript" src="./js/jq.js"></script>
  <script type="text/javascript" src="./js/index_login_register.js"></script>
+    <script type="text/javascript">
+		$(function() {
+			//带参数遍历哥哥选项卡
+			$("#menutext li").each(function(index) {
+				$(this).hover(function() {//注册每个选项卡的单击事件
+					//移除已选中的样式
+					$("#menutext li.tabFocus").removeClass("tabFocus");
+					$(this).addClass("tabFocus");//增加当前选中项的内容
+					$("#contenttext li:eq(" + index + ")").show().siblings().hide();
+				});
+			});
+		})
+	</script>
 <link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
@@ -75,6 +88,16 @@
 
             </div>
             <div class="promotion_text">
+            		<ul id="menutext">
+    					<li class="tabFocus">公告</li>
+       					 <li>预测</li>
+       					 <li>微博</li>
+   					 </ul>
+   					 <ul id="contenttext">
+  					  	<li class="conFocus"><img src="images/gonggao1.jpg" /></li>
+  					      <li><img src="images/gonggao2.jpg" /></li>
+    				    <li><img src="images/gonggao3.jpg" /></li>
+    				</ul>
             </div>
         </div>
         <div id="quickbuyBox">
