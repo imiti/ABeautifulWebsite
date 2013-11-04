@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>人民网奥运频道左右切换幻灯..._模板王</title>
+<SCRIPT language=javascript src="js/swfobject1.js"></SCRIPT>
+</HEAD>
+<BODY>
+<center>
+<DIV id=Pic>
+<SCRIPT type=text/javascript>
+var picURL = new Array();
+var textInfo = new Array();
+var txtInfo =new Array();
+
+picURL.push("images/01.jpg")
+textInfo.push("http://www.mobanwang.com/");
+txtInfo.push("趣味小游戏：我来颁金牌");
+
+picURL.push("images/02.jpg")
+textInfo.push("http://www.mobanwang.com/");
+txtInfo.push("中国历届冠军风采录");
+
+picURL.push("images/03.jpg")
+textInfo.push("http://www.mobanwang.com/");
+txtInfo.push("狂欢");
+
+picURL.push("images/04.jpg")
+textInfo.push("http://www.mobanwang.com/");
+txtInfo.push("邹市明夺得中国拳击奥运首金");
+
+picURL.push("images/05.jpg")
+textInfo.push("http://www.mobanwang.com/");
+txtInfo.push("中国拳击选手张小平获81公斤级冠军");
+
+picURL.push("images/06.jpg")
+textInfo.push("http://www.mobanwang.com/");
+txtInfo.push("动画：奥运场馆3D展示");
+var picURL_str = "";
+var textInfo_str = "";
+var txtInfo_str = "";
+var newdata=new Array()
+for (var i = 0; i<picURL.length; i++) {
+	picURL_str += picURL[i]+"|";
+	textInfo_str += textInfo[i]+"|";
+	txtInfo_str += txtInfo[i]+"|";
+}
+var Pic = new SWFObject("barswf.swf", "MP", "503", "210", "8", "");
+Pic.addParam("quality", "best");
+Pic.addParam("scale", "noscale");
+//Pic.addParam("wmode", "transparent");
+Pic.addVariable("picURL",picURL_str);
+Pic.addVariable("textInfo",textInfo_str);
+Pic.addVariable("txtInfo",txtInfo_str);
+Pic.write("Pic");
+</SCRIPT>
+ </DIV>
+<style type="text/css">
+  .about{width:550px;padding:15px 20px;margin:20px auto;text-align:left;border:solid 1px #FAAC02;background:#FFF7D6;}
+  .about p{height:30px;line-height:30px;padding:0;margin:0;}
+  a,a:link,a:visited{color:#f00;}
+  .b{font-weight:bold;}
+  span{padding-right:20px;}
+  </style>
+  <div class="about">
+  <p>
+    <span>代码整理：<a href="http://js.mobanwang.com/" target="_blank">模板王</a></span> 
+  </p>
+</div>
+</center>
+</BODY></HTML>

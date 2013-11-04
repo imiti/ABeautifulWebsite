@@ -9,6 +9,7 @@
  <script type="text/javascript" src="./js/jquery.XYTipsWindow.min.2.8.js"></script>
  <script type="text/javascript" src="./js/jq.js"></script>
  <script type="text/javascript" src="./js/index_login_register.js"></script>
+ <SCRIPT language=javascript src="js/swfobject1.js"></SCRIPT>
     <script type="text/javascript">
 		$(function() {
 			//带参数遍历哥哥选项卡
@@ -84,7 +85,46 @@
                     <button>统一支付</button>
                 </div>
             </div>
-			<div class="promotion_picture" id="cpIndexAdBox">
+			<div class="promotion_picture" id="Pic">
+            <-- 自动轮播效果 -->
+            <SCRIPT type=text/javascript>
+var picURL = new Array();
+var textInfo = new Array();
+var txtInfo =new Array();
+
+picURL.push("images/01.jpg")
+textInfo.push("http://www.mobanwang.com/");
+txtInfo.push("");
+
+picURL.push("images/02.jpg")
+textInfo.push("http://www.mobanwang.com/");
+txtInfo.push("");
+
+picURL.push("images/03.jpg")
+textInfo.push("http://www.mobanwang.com/");
+txtInfo.push("");
+
+picURL.push("images/04.jpg")
+textInfo.push("http://www.mobanwang.com/");
+txtInfo.push("");
+var picURL_str = "";
+var textInfo_str = "";
+var txtInfo_str = "";
+var newdata=new Array()
+for (var i = 0; i<picURL.length; i++) {
+	picURL_str += picURL[i]+"|";
+	textInfo_str += textInfo[i]+"|";
+	txtInfo_str += txtInfo[i]+"|";
+}
+var Pic = new SWFObject("barswf.swf", "MP", "503", "210", "8", "");
+Pic.addParam("quality", "best");
+Pic.addParam("scale", "noscale");
+//Pic.addParam("wmode", "transparent");
+Pic.addVariable("picURL",picURL_str);
+Pic.addVariable("textInfo",textInfo_str);
+Pic.addVariable("txtInfo",txtInfo_str);
+Pic.write("Pic");
+</SCRIPT>
 
             </div>
             <div class="promotion_text">
